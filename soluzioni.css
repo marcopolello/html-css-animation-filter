@@ -74,3 +74,17 @@
   filter: sepia(0.8);
   border-radius: 5%;
 }
+
+
+/* esercizio #10 */
+.ex-10-icon{
+  animation-name: gira;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+@keyframes gira {
+  0% {
+    transform: rotate(1turn);
+  }
