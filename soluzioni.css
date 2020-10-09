@@ -88,3 +88,18 @@
   0% {
     transform: rotate(1turn);
   }
+}
+
+/* esercizio #11 */
+.ex-11-icon:hover{
+  animation-name: ruota;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-direction: reverse;
+}
+@keyframes ruota {
+  0% {transform: rotate(0);}
+  10% {transform: rotate(0.75turn);}
+  100% {transform: rotate(0);}
+}
