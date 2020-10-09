@@ -126,3 +126,29 @@
   50% {right: calc(100% - 60px);}
   100% {right: 0%;}
 }
+
+/* esrcizio 13 */
+.ex-13-button:hover .ex-13-top-white {
+  animation-name: top13;
+  animation-timing-function: linear;
+  animation-duration: 3s;
+}
+@keyframes top13 {
+  0% {left: 10%; top: -10px;}
+  25% {left: 100%; top: -10px;}
+  50% {left: 100%; top: 60px;}
+  75% {left: -10%; top: 60px;}
+  100% {left: -10%; top: -10px;}
+}
+.ex-13-button:hover .ex-13-bottom-white {
+  animation-name: bot13;
+  animation-timing-function: linear;
+  animation-duration: 3s;
+}
+@keyframes bot13 {
+  0% {right: 10%; bottom: -10px;}
+  25% {right: 80%; bottom: -10px;}
+  50% {right: 80%; bottom: 60px;}
+  75% {right: -10%; bottom: 60px;}
+  100% {right: -10%; bottom: -10px;}
+}
