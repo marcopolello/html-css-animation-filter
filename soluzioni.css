@@ -64,3 +64,13 @@
   filter: grayscale(0.8);
   border-radius: 5%;
 }
+
+/* esercizio #9 */
+.ex-9-img{
+  transition: 3s;
+}
+.ex-9-img:hover{
+  transform: scale(1.5);
+  filter: sepia(0.8);
+  border-radius: 5%;
+}
