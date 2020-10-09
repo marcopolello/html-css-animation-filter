@@ -103,3 +103,26 @@
   10% {transform: rotate(0.75turn);}
   100% {transform: rotate(0);}
 }
+
+
+/* esrcizio 12 */
+.ex-12-button:hover .ex-12-top-white {
+  animation-name: top12;
+  animation-timing-function: linear;
+  animation-duration: 3s;
+}
+@keyframes top12 {
+  0% {left: 0%;}
+  50% {left: calc(100% - 60px);}
+  100% {left: 0%;}
+}
+.ex-12-button:hover .ex-12-bottom-white {
+  animation-name: bot12;
+  animation-timing-function: linear;
+  animation-duration: 3s;
+}
+@keyframes bot12 {
+  0% {right: 0%;}
+  50% {right: calc(100% - 60px);}
+  100% {right: 0%;}
+}
